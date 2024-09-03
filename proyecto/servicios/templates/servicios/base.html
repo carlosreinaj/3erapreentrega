@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Servicios</title>
+</head>
+<body>
+    <header>
+        <h1 style= "color: rgb(23, 142, 182); text-align: center;">
+            {% block header %}
+                
+            {% endblock header %}
+        </h1>
+    </header>
+    <nav style="text-align: center;">
+        {% include 'servicios/navbar.html' %}
+    </nav>
+
+    <main style="text-align: center;">
+        {% block main %}
+            
+        {% endblock main %}
+    </main>
+
+    <footer>
+
+    </footer>
+</body>
+</html>
